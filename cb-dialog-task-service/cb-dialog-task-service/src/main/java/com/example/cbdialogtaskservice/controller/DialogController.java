@@ -26,9 +26,9 @@ public class DialogController {
 		return p.toString();
 	}
 	
-	@GetMapping("/getByName")
-	public Dialog getDialogByIntentId(@RequestParam String name) {
-		return dialogService.findDialogByIntentId(name);
+	@GetMapping("/getDialogByIntentId")
+	public Dialog getDialogByIntentId(@RequestParam String intentId) {
+		return dialogService.findDialogByIntentId(intentId);
 	}
 	@GetMapping("/getAll")
 	public List<Dialog> getAll(){

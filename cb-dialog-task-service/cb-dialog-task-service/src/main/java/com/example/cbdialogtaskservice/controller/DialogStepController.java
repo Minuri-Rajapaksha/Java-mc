@@ -15,7 +15,7 @@ import com.example.cbdialogtaskservice.model.DialogStep;
 import com.example.cbdialogtaskservice.service.DialogStepService;
 
 @RestController
-@RequestMapping("dialogStep")
+@RequestMapping("dialogSteps")
 public class DialogStepController {
 	@Autowired
 	private DialogStepService dialogStepService;

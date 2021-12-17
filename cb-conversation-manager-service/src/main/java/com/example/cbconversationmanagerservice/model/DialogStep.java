@@ -34,6 +34,10 @@ public class DialogStep {
 		this.step = step;
 	}
 	
+	public DialogStep() {
+		
+	}
+	
 	public DialogStep(String dialogId, String stepId, String step) {
 		this.dialogId = dialogId;
 		this.stepId = stepId;

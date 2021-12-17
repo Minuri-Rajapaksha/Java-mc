@@ -27,6 +27,10 @@ public class Dialog {
 		this.name = name;
 	}
 	
+	public Dialog() {
+		
+	}
+	
 	public Dialog(String name, String intentId) {
 		this.name = name;
 		this.intentId = intentId;
